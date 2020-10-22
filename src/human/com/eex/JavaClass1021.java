@@ -4,7 +4,7 @@ public class JavaClass1021 {
 
 	public static void main(String[] args) {
 		java.util.Scanner scanner=new java.util.Scanner(System.in);
-		
+		/*
 		//1.
 		int a1=2, b1=1;
 		b1++;
@@ -293,7 +293,7 @@ public class JavaClass1021 {
 			}
 			System.out.println();
 		}
-		
+		*/
 		//19.
 		System.out.print("시작 요일 입력(일~토)=>");
 		String a19=scanner.nextLine();
@@ -365,7 +365,8 @@ public class JavaClass1021 {
 			}
 			break;
 		}
-		
+		System.out.println();
+		/*
 		//20.
 		System.out.print("게임 회수=>");
 		int b20=Integer.parseInt(scanner.nextLine());
@@ -403,7 +404,7 @@ public class JavaClass1021 {
 			}
 		}
 		System.out.println("게임 회수=>"+b21+"맞춘 회수=>"+sum21+"틀린 회수=>"+sum221);
-		
+		*/
 	}
 
 }
