@@ -10,4 +10,10 @@ public class Human {
 		this.age = age;
 		this.height = height;
 	}
+	public Human() {
+		super();
+		this.name = "";
+		this.age = 0;
+		this.height = 0;
+	}
 }
