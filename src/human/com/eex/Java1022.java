@@ -3,9 +3,9 @@ import human.com.dto.Car;
 public class Java1022 {
 
 	public static void main(String[] args) {
-		human.com.dto.Car car1=new human.com.dto.Car();
-		human.com.dto.Car car2=new human.com.dto.Car();
-		human.com.dto.Car car3=new human.com.dto.Car();
+		Car car1=new Car();
+		Car car2=new Car();
+		Car car3=new Car();
 		System.out.println("차 이름\t\t색상\t바퀴\t\t제조사\t\t최고속도\t차종");
 		car1.name="Morning";
 		car1.color="Red";
